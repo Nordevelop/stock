@@ -6,17 +6,20 @@ public class Factura {
     *@Author Nordevelop
     *Factura
     */ 
-    //detalle del Cliente
+    //detalle del Cliente_-.....Atencion!! estos objetos no deben iterar!
     private int id_cliente;
     private String nombre_cliente;
     private String apellido_Cliente;
+    private int cuil_cliente;	
     private String calle_cliente;
     private int altura_cliente;
     private String loc_cliente;
-    //detalle de la venta
+    //detalle de la venta.......Atencion!! estos objetos deben iterar!
     private int id_venta;
-  
-  public int asignar_id_cliente()
+    private String descripcion_venta;
+    private int cantidad_venta;
+    private int subtotal_venta;	
+    public int asignar_id_cliente()
 	{
 		return this.id_cliente; //devolver
 	}
@@ -40,6 +43,7 @@ public class Factura {
   {
     return this.loc_cliente; 
   }
+  public int asignar_id_venta()
     
   
 }
