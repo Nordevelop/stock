@@ -18,6 +18,7 @@ public class Factura {
     //detalle de la venta.......Atencion!! estos objetos deben iterar!
     private int id_venta;
     private String descripcion_venta;
+    private int precio_venta;
     private int cantidad_venta;
     private int subtotal_venta;	
     public int asignar_id_cliente()
@@ -45,6 +46,10 @@ public class Factura {
     return this.loc_cliente; 
   }
   public int asignar_id_venta()
+  {
+    return this.
+  }
+	
     
   
 }
