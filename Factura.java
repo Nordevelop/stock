@@ -7,6 +7,7 @@ public class Factura {
     *Factura
     */ 
     //detalle del Cliente_-.....Atencion!! estos objetos no deben iterar!
+	
     private int id_cliente;
     private String nombre_cliente;
     private String apellido_Cliente;
