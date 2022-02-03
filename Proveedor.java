@@ -71,9 +71,8 @@ public class Proveedor {
   {
 	  this.loc_proveedor=t;
   }
-  public Proveedor (int n, String o, String p, int q, String r, int s, String t)
-  //Clase constructor
-  {
+  public Proveedor (int n, String o, String p, int q, String r, int s, String t){  //Clase constructor
+ 
   this.id_proveedor=n;
   this.nombre_corred_proveedor=o;
   this.apellido_corred_proveedor=p;
