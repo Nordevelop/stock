@@ -16,7 +16,7 @@ public class Proveedor {
     private String calle_proveedor;
     private int altura_proveedor;
     private String loc_proveedor;
-    //metodos de asignacion del detalle info de proveedores
+    //metodos de asignacion del detalle datos de proveedores
     public int asignar_id_proveedores()
 	{
 		return this.id_proveedor; //devolver
