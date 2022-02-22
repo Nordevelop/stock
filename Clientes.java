@@ -72,8 +72,8 @@ public class Clientes {
   {
 	  this.loc_cliente=g;
   }
-  public Clientes (int a, String b, String c, int d, String e, int f, String g)
-  {
+  public Clientes (int a, String b, String c, int d, String e, int f, String g) { //Clase Constructor
+	  
   this.id_cliente=a;
   this.nombre_cliente=b;
   this.apellido_cliente=c;
