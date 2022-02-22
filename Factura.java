@@ -59,7 +59,7 @@ public class Factura {
 		  {
 			  this.subtotal_venta=m;
 		  }//clase Constructor
-		  public Factura( int h, String j, int k, int l, int m)
+		  public Factura( int h, String j, int k, int l, int m)//clase Constructor
 		  {
 			 
 			  this.id_venta=h;
