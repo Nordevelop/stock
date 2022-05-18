@@ -5,7 +5,7 @@ public class Proveedor {
 	 * 
 	 *Repositorio https://github.com/Nordevelop/Stock/Proveedores.java
 	  *Clase proveedores
-	 *objetos de la clase Proveedores emcapsulado con Acceso Denegado en clase Main()
+	 *objetos de la clase Proveedores emcapsulado con Acceso Denegado fuera de la clase Proveedor
      *detalle del Proveedor_-...
      */
     private int id_proveedor;
@@ -42,32 +42,32 @@ public class Proveedor {
     return this.loc_proveedor; 
   }
 //metodos de inserccion detalle de info de proveedores
-  public void insert_id_proveedor(int n)
+  public void agregar_id_proveedor(int n)
 	{
 		this.id_proveedor=n;
 	}
-  public void insert_nombre_corred_proveedor(String o)
+  public void agregar_nombre_corred_proveedor(String o)
   {
 	   this.nombre_corred_proveedor=o;
   }
   
-  public void insert_apellido_corred_proveedor(String p)
+  public void agregar_apellido_corred_proveedor(String p)
   {
 	   this.apellido_corred_proveedor=p;
   }
-  public void  insert_cuit_proveedor(int q)
+  public void  agregar_cuit_proveedor(int q)
   {
 	  this.cuit_proveedor=q;
   }
-  public void insert_calle_proveedor(String r)
+  public void agregar_calle_proveedor(String r)
   {
 	  this.calle_proveedor=r;
   }
-  public void insert_altura_proveedor(int s)
+  public void agregar_altura_proveedor(int s)
   {
 	  this.altura_proveedor=s;
   }
-  public void insert_localidad_proveedor(String t)
+  public void agregar_localidad_proveedor(String t)
   {
 	  this.loc_proveedor=t;
   }
