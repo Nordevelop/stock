@@ -9,13 +9,14 @@ public class Main {
 		 */
 		Scanner entra = new Scanner (System.in);
 		Factura cla=null; //llamada a la clase Factura
+		 ArrayList<Factura> Lista = new ArrayList<Factura>();
 		int id_venta;
 		 String descripcion_venta;
 		 int precio_venta=0;
 		 int cantidad_venta=0;
 		 int subtotal_venta=0;
 		 int total=0;
-		 ArrayList<Factura> Lista = new ArrayList<Factura>(); //declaracion de un Array de objetos
+		
 		 System.out.println("ingrese un ID o cero para terminar: ");
 		   id_venta=entra.nextInt();
 		   ArrayList<Factura> List = null;
@@ -39,10 +40,10 @@ public class Main {
 			   total= total +subtotal_venta;
 		   }
 		   for(Factura c:Lista) {
-			   System.out.println("*******************************************************************************************************************************************************************************************************************");
+			   System.out.println("************************************************************************************************************************************************************************************************************************");
 			   System.out.println("ID del producto: " +"||"+ c.asignar_id_venta()+"||"+"Descripcion del producto: "+ c.asignar_descripcion_venta()+"||"+ "precio del producto: "+"||"+c.asignar_precio_venta()+"||"+"Cantidad: "+ c.asignar_cantidad_venta()+"||" +"subtotal: "+"||");
 		}
-		   System.out.println("***********************************************************************************************************************************************************************************************************************");
+		   System.out.println("*********************************************************************************************************************************************************************************************************************************");
 		   System.out.println("el Total a pagar es: "+total+"$");
 
 	 }
