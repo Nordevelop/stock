@@ -39,24 +39,24 @@ public class Factura {
 			  return this.subtotal_venta;
 		  }
 		  //metodo de inserccion de detalle de ventas
-		  public void insert_id_venta(int h)
+		  public void agregar_id_venta(int h)
 		  {
 			  this.id_venta=h;
 		  }
-		  public void insert_descripcion_venta(String j)
+		  public void agregar_descripcion_venta(String j)
 		  {
 			  this.descripcion_venta=j;
 		  }
-		  public void insert_precio_venta(int k)
+		  public void agregar_precio_venta(int k)
 		  {
 			  this.precio_venta=k;
 			  
 		  }
-		  public void insert_cantidad_venta(int l)
+		  public void agregar_cantidad_venta(int l)
 		  {
 			  this.cantidad_venta=l;
 		  }
-		  public void insert_subtotal_venta(int m)
+		  public void agregar_subtotal_venta(int m)
 		  {
 			  this.subtotal_venta=m;
 		  }//clase Constructor
@@ -68,7 +68,7 @@ public class Factura {
 			  this.precio_venta=k;
 			  this.cantidad_venta=l;
 			  this.subtotal_venta=m;
-			//objetos de la clase  con Acceso Permitido en  la clase Main{} 
+			//objetos de la clase  con Acceso Permitido en las otras clases del proyecto
 		  }//Fin de la Clase Constructor
 		  
 	  }
